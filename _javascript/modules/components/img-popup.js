@@ -15,7 +15,7 @@ export function imgPopup() {
     showCloseBtn: false,
     zoom: {
       enabled: true,
-      duration: 300,
+      duration: 100,
       easing: 'ease-in-out'
     }
   });

@@ -46,3 +46,6 @@ polyfill:
 
 mathjax:
   js: /assets/lib/mathjax/tex-chtml.js
+
+openseadragon:
+  js: /assets/lib/openseadragon-4.1.0/openseadragon.min.js

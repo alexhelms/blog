@@ -1,0 +1,34 @@
+<style>
+    .openseadragon
+    {
+        margin: 0 auto;
+        width: 100%;
+        aspect-ratio: 1.33;
+        background-color: var(--kbd-bg-color);
+    }
+</style>
+<div id="openseadragon1" class="openseadragon">
+    <script type="text/javascript">
+        var sources = "{{ image }}";
+
+        if (sources.endsWith(".jpg")) {
+            sources = {
+                "type": "image",
+                "url": sources
+            };
+        }
+
+        OpenSeadragon({
+            minZoomImageRatio: 1.0,
+            minScrollDeltaTime: 25,
+            animationTime: 0.3,
+            controlsFadeDelay: 500,
+            controlsFadeLength: 500,
+            zoomPerScroll: 1.4,
+            imageSmoothingEnabled: false,
+            id: "openseadragon1",
+            prefixUrl: "https://cdn.jsdelivr.net/gh/Benomrans/openseadragon-icons@main/images/",
+            tileSources: sources
+        });
+    </script>
+</div>

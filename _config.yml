@@ -13,39 +13,40 @@ baseurl: ""
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone: Asia/Shanghai
+timezone: America/Phoenix
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Alex Helms # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Software Engineer & Astrophotographer # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  The personal blog and portfolio for Alex Helms.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://alexhelms.com"
 
 github:
-  username: github_username # change to your github username
+  username: alexhelms # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Alex Helms
+  email: alexander.helms+blog@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    # - https://twitter.com/username # change to your twitter homepage
+    - https://github.com/alexhelms # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/alex-helms-13b77479/
 
 google_site_verification: # fill in to your verification string
 
@@ -53,7 +54,7 @@ google_site_verification: # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # fill in your Google Analytics ID
+  id: "UA-159989870-1" # fill in your Google Analytics ID
 
 # Prefer color scheme setting.
 #
@@ -66,17 +67,17 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode: dark # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: https://alexhelms.s3.amazonaws.com/public
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "/assets/img/bio-photo.png"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -110,7 +111,7 @@ assets:
     env: # [development|production]
 
 pwa:
-  enabled: true # the option for PWA feature
+  enabled: false # the option for PWA feature
 
 paginate: 10
 
@@ -193,3 +194,6 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+  - jekyll-target-blank

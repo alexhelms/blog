@@ -87,6 +87,10 @@
 
   <!-- JavaScript -->
 
+  {% if page.openseadragon %}
+  <script src="{{ site.data.origin[type].openseadragon.js | relative_url }}"></script>
+  {% endif %}
+
   {% unless site.theme_mode %}
     {% include mode-toggle.html %}
   {% endunless %}

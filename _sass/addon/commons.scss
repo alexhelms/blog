@@ -71,7 +71,7 @@ a {
 img {
   max-width: 100%;
   height: auto;
-  transition: all 0.35s ease-in-out;
+  transition: all 0.15s ease-in-out;
 
   &[data-src] {
     &[data-lqip='true'] {
@@ -89,8 +89,8 @@ img {
       }
 
       &.lazyloaded {
-        -webkit-animation: fade-in 0.35s ease-in;
-        animation: fade-in 0.35s ease-in;
+        -webkit-animation: fade-in 0.15s ease-in;
+        animation: fade-in 0.15s ease-in;
       }
     }
 
@@ -891,7 +891,7 @@ $btn-mb: 0.5rem;
 
 @media (hover: hover) {
   #sidebar ul > li:last-child::after {
-    transition: top 0.5s ease;
+    transition: top 0.1s ease;
   }
 
   .nav-link {
@@ -1210,8 +1210,8 @@ search {
       left: 50%;
       bottom: 20%;
       transform: translateX(-50%);
-      -webkit-animation: popup 0.8s;
-      animation: popup 0.8s;
+      -webkit-animation: popup 0.4s;
+      animation: popup 0.4s;
     }
   }
 }
@@ -1261,7 +1261,7 @@ search {
 /* hide sidebar and panel */
 @media all and (max-width: 849px) {
   @mixin slide($append: null) {
-    $basic: transform 0.4s ease;
+    $basic: transform 0.2s ease;
 
     @if $append {
       transition: $basic, $append;
