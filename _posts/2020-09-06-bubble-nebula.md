@@ -4,8 +4,8 @@ date: 2020-09-06 18:00:00 -0700
 categories: [Astrophotography]
 collection: images
 tags: [Narrowband, Nebula, NGC, Bicolor]
-teaser: /assets/img/astrophotography/bubble-nebula-bicolor-2020-09-06-teaser.jpg
 image:
+  thumb: /assets/img/astrophotography/bubble-nebula-bicolor-2020-09-06-teaser.jpg
   path: /assets/img/astrophotography/bubble-nebula-bicolor-2020-09-06.jpg
   alt: Bubble Nebula
 ---

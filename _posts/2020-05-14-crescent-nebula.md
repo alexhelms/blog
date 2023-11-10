@@ -4,8 +4,8 @@ date: 2020-05-14 18:00:00 -0700
 categories: [Astrophotography]
 collection: images
 tags: [Broadband, Galaxy, Messier, Bicolor]
-teaser: /assets/img/astrophotography/crescent-nebula-bicolor-2020-05-14-teaser.jpg
 image:
+  thumb: /assets/img/astrophotography/crescent-nebula-bicolor-2020-05-14-teaser.jpg
   path: /assets/img/astrophotography/crescent-nebula-bicolor-2020-05-14.jpg
   alt: Crescent Nebula
 ---

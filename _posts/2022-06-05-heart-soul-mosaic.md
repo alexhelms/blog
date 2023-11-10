@@ -4,7 +4,7 @@ date: 2022-06-15 22:00:00 -0700
 categories: [Astrophotography]
 collection: images
 tags: [Narrowband, Nebula, IC, Mono, Mosaic]
-teaser: /assets/img/astrophotography/heart-soul-mosaic-2022-06-15-teaser.jpg
+image: /assets/img/astrophotography/heart-soul-mosaic-2022-06-15-teaser.jpg
 openseadragon: true
 ---
 

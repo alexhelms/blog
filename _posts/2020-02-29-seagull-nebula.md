@@ -4,8 +4,8 @@ date: 2020-02-29 18:00:00 -0700
 categories: [Astrophotography]
 collection: images
 tags: [Narrowband, Nebula]
-teaser: /assets/img/astrophotography/seagull-nebula-bicolor-2020-02-29-teaser.jpg
 image:
+  thumb: /assets/img/astrophotography/seagull-nebula-bicolor-2020-02-29-teaser.jpg
   path: /assets/img/astrophotography/seagull-nebula-bicolor-2020-02-29.jpg
   alt: Seagull Nebula
 ---
