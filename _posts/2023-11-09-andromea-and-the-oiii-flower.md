@@ -8,17 +8,15 @@ thumb: /assets/img/astrophotography/andromeda-and-the-oiii-flower-2023-11-09-thu
 openseadragon: true
 ---
 
-{% openseadragon {"image":"https://alexhelms.s3.amazonaws.com/public/assets/img/astrophotography/mosaic/2023_m31_haoiiilrgb/m31_haoiiilrgb.dzi"} %}
-
-{% include caption.html content="M31 LRGB with HA and OIII" %}
-
 The OIII "flower", as some have come to call it, is an extremely faint OIII structure that is only visible
 after considerable integration and careful continuum subtraction. After 25.5 hours of OIII integration
 I could just barely see the flower. I'm happy I could see it but given how noisy it is I'm happier with
 the version of this image without OIII.
 
-{% openseadragon {"image":"https://alexhelms.s3.amazonaws.com/public/assets/img/astrophotography/mosaic/2023_m31_halrgb/m31_halrgb.dzi"} %}
+{% openseadragon {"image":"https://alexhelms.s3.amazonaws.com/public/assets/img/astrophotography/mosaic/2023_m31_haoiiilrgb/m31_haoiiilrgb.dzi"} %}
+{% include caption.html content="M31 LRGB with HA and OIII" %}
 
+{% openseadragon {"image":"https://alexhelms.s3.amazonaws.com/public/assets/img/astrophotography/mosaic/2023_m31_halrgb/m31_halrgb.dzi"} %}
 {% include caption.html content="M31 LRGB with HA" %}
 
 ### Gear

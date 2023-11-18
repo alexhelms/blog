@@ -8,11 +8,12 @@ thumb: /assets/img/astrophotography/m33-triangulum-galaxy-2023-11-17-thumb.jpg
 openseadragon: true
 ---
 
+This M33 image was first light for my new remote observatory located in south east Arizona.
+Several friends and I went to the observatory in mid October to install equipment and hopefully get some data!
+Our careful planning allowed the install to go very smoothly and we were up and imaging on the first night.
+
 {% openseadragon {"image":"https://alexhelms.s3.amazonaws.com/public/assets/img/astrophotography/mosaic/2023_m33_halrgb/m33_halrgb.dzi"} %}
-
 {% include caption.html content="M33 HaLRGB" %}
-
-TODO write a description
 
 ### Gear
 
