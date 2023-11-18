@@ -4,8 +4,8 @@ date: 2020-09-26 18:00:00 -0700
 categories: [Astrophotography]
 collection: images
 tags: [Narrowband, Nebula, NGC, Bicolor]
+thumb: /assets/img/astrophotography/helix-nebula-bicolor-2020-09-26-teaser.jpg
 image:
-  thumb: /assets/img/astrophotography/helix-nebula-bicolor-2020-09-26-teaser.jpg
   path: /assets/img/astrophotography/helix-nebula-bicolor-2020-09-26.jpg
   alt: Helix Nebula
 ---

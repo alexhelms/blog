@@ -4,10 +4,11 @@ date: 2023-11-09 18:00:00 -0700
 categories: [Astrophotography]
 collection: images
 tags: [Narrowband, Nebula, M31]
+thumb: /assets/img/astrophotography/andromeda-and-the-oiii-flower-2023-11-09-thumb.jpg
 image:
-  thumb: /assets/img/astrophotography/andromeda-and-the-oiii-flower-2023-11-09-thumb.jpg
   path: /assets/img/astrophotography/andromeda-and-the-oiii-flower-2023-11-09.jpg
   alt: Andromeda and the OIII Flower
+  no_bg:
 ---
 
 The OIII "flower", as some have come to call it, is an extremely faint OIII structure that is only visible

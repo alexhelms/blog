@@ -4,8 +4,8 @@ date: 2020-06-09 18:00:00 -0700
 categories: [Astrophotography]
 collection: images
 tags: [Narrowband, Nebula, Messier, Bicolor]
+thumb: /assets/img/astrophotography/dumbbell-nebula-bicolor-2020-06-09-teaser.jpg
 image:
-  thumb: /assets/img/astrophotography/dumbbell-nebula-bicolor-2020-06-09-teaser.jpg
   path: /assets/img/astrophotography/dumbbell-nebula-bicolor-2020-06-09.jpg
   alt: Dumbbell Nebula
 ---
