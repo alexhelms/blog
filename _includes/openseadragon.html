@@ -1,34 +1,29 @@
-<style>
-    .openseadragon
-    {
-        margin: 0 auto;
-        width: 100%;
-        aspect-ratio: 1.33;
-        background-color: var(--kbd-bg-color);
+{% assign min = 0 %}
+{% assign max = 1000 %}
+{% assign diff = max | minus: min %}
+{% assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min %}
+
+<div id="openseadragon-{{randomNumber}}" class="openseadragon"></div>
+<script type="text/javascript">
+    var sources = "{{ image }}";
+
+    if (sources.endsWith(".jpg")) {
+        sources = {
+            "type": "image",
+            "url": sources
+        };
     }
-</style>
-<div id="openseadragon1" class="openseadragon">
-    <script type="text/javascript">
-        var sources = "{{ image }}";
 
-        if (sources.endsWith(".jpg")) {
-            sources = {
-                "type": "image",
-                "url": sources
-            };
-        }
-
-        OpenSeadragon({
-            minZoomImageRatio: 1.0,
-            minScrollDeltaTime: 25,
-            animationTime: 0.3,
-            controlsFadeDelay: 500,
-            controlsFadeLength: 500,
-            zoomPerScroll: 1.4,
-            imageSmoothingEnabled: false,
-            id: "openseadragon1",
-            prefixUrl: "https://cdn.jsdelivr.net/gh/Benomrans/openseadragon-icons@main/images/",
-            tileSources: sources
-        });
-    </script>
-</div>
+    OpenSeadragon({
+        minZoomImageRatio: 1.0,
+        minScrollDeltaTime: 25,
+        animationTime: 0.3,
+        controlsFadeDelay: 500,
+        controlsFadeLength: 500,
+        zoomPerScroll: 1.4,
+        imageSmoothingEnabled: false,
+        id: "openseadragon-{{randomNumber}}",
+        prefixUrl: "https://cdn.jsdelivr.net/gh/Benomrans/openseadragon-icons@main/images/",
+        tileSources: sources
+    });
+</script>

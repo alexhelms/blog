@@ -95,7 +95,12 @@
             rel="{{ link_types }}"
           {% endunless %}
         >
-          <i class="{{ entry.icon }}"></i>
+          {% if entry.type == 'astrobin' %}
+            {% assign asrobin_icon_src = '/assets/img/astrobin-logo.png' | relative_url %}
+            <img src="{{ asrobin_icon_src }}"></i>
+          {% else %}
+            <i class="{{ entry.icon }}"></i>
+          {% endif %}
         </a>
       {% endif %}
     {% endfor %}

@@ -3,21 +3,23 @@ title: Andromeda and the OIII Flower
 date: 2023-11-09 18:00:00 -0700
 categories: [Astrophotography]
 collection: images
-tags: [Narrowband, Nebula, M31]
+tags: [Broadband, Narrowband, Galaxy, M31]
 thumb: /assets/img/astrophotography/andromeda-and-the-oiii-flower-2023-11-09-thumb.jpg
-image:
-  path: /assets/img/astrophotography/andromeda-and-the-oiii-flower-2023-11-09.jpg
-  alt: Andromeda and the OIII Flower
-  no_bg:
+openseadragon: true
 ---
+
+{% openseadragon {"image":"https://alexhelms.s3.amazonaws.com/public/assets/img/astrophotography/mosaic/2023_m31_haoiiilrgb/m31_haoiiilrgb.dzi"} %}
+
+{% include caption.html content="M31 LRGB with HA and OIII" %}
 
 The OIII "flower", as some have come to call it, is an extremely faint OIII structure that is only visible
 after considerable integration and careful continuum subtraction. After 25.5 hours of OIII integration
 I could just barely see the flower. I'm happy I could see it but given how noisy it is I'm happier with
 the version of this image without OIII.
 
-![Andromeda HaLRGB](/assets/img/astrophotography/andromeda-halrgb-2023-11-09.png.jpg)
-_M31 in HaLRGB_
+{% openseadragon {"image":"https://alexhelms.s3.amazonaws.com/public/assets/img/astrophotography/mosaic/2023_m31_halrgb/m31_halrgb.dzi"} %}
+
+{% include caption.html content="M31 LRGB with HA" %}
 
 ### Gear
 
@@ -46,4 +48,4 @@ _M31 in HaLRGB_
 | Gain | 56 |
 | Offset | 25 |
 | Bortle | 1 |
-| Location | Pearce, Arizona |
+| Location | SDSO, Sunizona, Arizona |

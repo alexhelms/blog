@@ -89,6 +89,15 @@
 
   {% if page.openseadragon %}
   <script src="{{ site.data.origin[type].openseadragon.js | relative_url }}"></script>
+  <style>
+    .openseadragon
+    {
+        margin: 0 auto;
+        width: 100%;
+        aspect-ratio: 3 / 2;
+        background-color: var(--main-bg);
+    }
+  </style>
   {% endif %}
 
   {% unless site.theme_mode %}
