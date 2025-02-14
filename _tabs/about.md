@@ -8,7 +8,7 @@ order: 5
 Hi, I'm Alex Helms.
 
 I'm a software engineer and an astrophotographer.
-I grew up in Maryland, where the night skies are filled with ligh pollution.
+I grew up in Maryland, where the night skies are filled with light pollution.
 In 2010, I moved to Phoenix, Arizona.
 Just a month after moving, I went to the desert to experience the dark skies and was instantly hooked.
 Soon after, I bought my first telescope and my passion for astrophotography began -- and it hasn't stopped since.
