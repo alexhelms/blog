@@ -1,12 +1,15 @@
 ---
 title: Whale and Hockey Stick Galaxy
-date: 2025-05-28 00:06:00 -0700
+date: 2025-05-28 00:08:00 -0700
 categories: [Astrophotography]
 collection: images
 tags: [Broadband, Galaxy, Whale, Hockey Stick]
 thumb: /assets/img/astrophotography/2025-05-28-whale_and_hockey_stick.jpg
 openseadragon: true
 ---
+
+The Whale Galaxy (NGC 4631) and the Hockey Stick Galaxy (NGC 4656) are barred spiral galaxies in the constellation Canes Venatici 
+about 30 million light years away.
 
 {% openseadragon {"image":"https://alexhelms.s3.amazonaws.com/public/assets/img/astrophotography/mosaic/2025_whale_and_hockey_stick/whale_and_hockey_stick.dzi"} %}
 {% include caption.html content="Whale and Hockey Stick Galaxy" %}
@@ -36,3 +39,4 @@ openseadragon: true
 | Total Integration | 54.8 hours|
 | Bortle | 1 |
 | Location | SDSO, Sunizona, Arizona |
+| Date | 2025-05-07 |
