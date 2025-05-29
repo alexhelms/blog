@@ -8,7 +8,7 @@ thumb: /assets/img/astrophotography/2025-03-09-flaming_star.jpg
 openseadragon: true
 ---
 
-The Flaming Star Nebula (IC 405) is a brigh emission nebula in the constellation Auriga 1500 light years away.
+The Flaming Star Nebula (IC 405) is a bright emission nebula in the constellation Auriga 1500 light years away.
 
 {% openseadragon {"image":"https://alexhelms.s3.amazonaws.com/public/assets/img/astrophotography/mosaic/2025_flaming_star/flaming_star.dzi"} %}
 {% include caption.html content="Flaming Star Nebula" %}
